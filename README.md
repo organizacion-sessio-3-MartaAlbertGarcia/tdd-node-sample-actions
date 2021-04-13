@@ -2,6 +2,11 @@
 
 Fuente: https://www.taniarascia.com/unit-testing-in-javascript/
 
+## Ejecución de tests en GitHub Actions
+Fuente: https://docs.github.com/en/actions/guides/building-and-testing-nodejs
+
+El fichero `.github/workflows/testnode.yml` contiene la configuración necesaria para activar la acción de ejecución de tests. Está convenientemente comentado.
+
 ## Instalación de Node
 Disponible en https://nodejs.org/es/
 
@@ -37,7 +42,3 @@ La metodología de [Desarrollo Guiado por Pruebas](https://es.wikipedia.org/wiki
 5. Refactorizar el código (eliminar duplicidades, etc.)
 6. Volver a comprobar que se pasan todos los tests
 
-## Ejecución de tests en GitHub Actions
-Fuente: https://docs.github.com/en/actions/guides/building-and-testing-nodejs
-
-El fichero `.github/workflows/testnode.yml` contiene la configuración necesaria para activar la acción de ejecución de tests. Está convenientemente comentado.
