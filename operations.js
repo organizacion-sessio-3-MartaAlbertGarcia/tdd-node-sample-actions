@@ -1,10 +1,10 @@
-/* Función suma */
+/* Funció paritat */
  function paritat (a) {
 	return (a%2==0);	
 };
 
 
-/* Exportación de funciones */
+/* Exportació de funcions */
 module.exports = {
 	paritat
 }
